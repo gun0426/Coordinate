@@ -1,0 +1,39 @@
+﻿빌드 시작: 2019-06-10 오후 12:12:38
+     1>2 노드의 "E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Coordinates\Coordinates.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D NO_WARN_MBCS_MFC_DEPRECATION /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Coordinates.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D NO_WARN_MBCS_MFC_DEPRECATION /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Coordinates.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Coordinates.cpp CoordinatesDoc.cpp CoordinatesView.cpp DlgGraph.cpp DlgMainCtrl.cpp MLineChartConfig.cpp MLineChartCtrl.cpp MLineChartData.cpp MainFrm.cpp
+         MainFrm.cpp
+         MLineChartData.cpp
+         MLineChartCtrl.cpp
+     1>e:\work\app_2team\project\99.gui\coordinate\coordinates\coordinates\mlinechartctrl.cpp(410): warning C4101: 'ty' :참조되지 않은 지역 변수입니다.
+     1>e:\work\app_2team\project\99.gui\coordinate\coordinates\coordinates\mlinechartctrl.cpp(410): warning C4101: 'tx' :참조되지 않은 지역 변수입니다.
+     1>e:\work\app_2team\project\99.gui\coordinate\coordinates\coordinates\mlinechartctrl.cpp(541): warning C4101: 'dXData' :참조되지 않은 지역 변수입니다.
+         MLineChartConfig.cpp
+         DlgMainCtrl.cpp
+         DlgGraph.cpp
+         CoordinatesView.cpp
+         CoordinatesDoc.cpp
+         Coordinates.cpp
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\Coordinates.res" Coordinates.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Debug\Coordinates.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Debug\Coordinates.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Debug\Coordinates.lib" /MACHINE:X86 Debug\Coordinates.res
+         Debug\Coordinates.obj
+         Debug\CoordinatesDoc.obj
+         Debug\CoordinatesView.obj
+         Debug\DlgGraph.obj
+         Debug\DlgMainCtrl.obj
+         Debug\MainFrm.obj
+         Debug\MLineChartConfig.obj
+         Debug\MLineChartCtrl.obj
+         Debug\MLineChartData.obj
+         Debug\stdafx.obj
+         Coordinates.vcxproj -> E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Debug\Coordinates.exe
+     1>"E:\work\APP_2TEAM\Project\99.GUI\Coordinate\Coordinates\Coordinates\Coordinates.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.88
